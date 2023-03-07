@@ -1,0 +1,71 @@
+body {
+    font-family: 'Exo 2', sans-serif;
+    background-color: #4a4a4a;
+}
+
+h1 {
+    color: #c0c0c0;
+    text-align: center;
+}
+
+.keys {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.first-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.key {
+    border: 2px solid #c0c0c0;
+    margin: 5px;
+    font-size: 30px;
+    padding: 10px 10px;
+    transition: all .07s ease;
+    width: 80px;
+    text-align: center;
+    color: #c0c0c0;
+    background: #00000049;
+    text-shadow: 0 0 .5rem black;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 .5rem #c0c0c0;
+}
+
+kbd {
+    display: block;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.sound {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: aquamarine;
+    box-shadow: 0 0 1rem aquamarine;
+}

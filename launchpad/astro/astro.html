@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Kits | Astro</title>
+    <link rel="stylesheet" href="astroStyles.css">
+    <script src="astroApp.js"></script>
+</head>
+<body>
+    <h1>ASTRO</h1>
+    <div class="keys">
+        
+        <div class="first-row">
+            <div data-key="81" class="key">
+                <kbd>Q</kbd>
+                <span class="sound">808-1</span>
+            </div>
+            <div data-key="87" class="key">
+                <kbd>W</kbd>
+                <span class="sound">808-2</span>
+            </div>
+            <div data-key="69" class="key">
+                <kbd>E</kbd>
+                <span class="sound">KICK-1</span>
+            </div>
+            <div data-key="82" class="key">
+                <kbd>R</kbd>
+                <span class="sound">KICK-2</span>
+            </div>
+            <div data-key="84" class="key">
+                <kbd>T</kbd>
+                <span class="sound">KICK-3</span>
+            </div>
+            <div data-key="89" class="key">
+                <kbd>Y</kbd>
+                <span class="sound">HIHAT-1</span>
+            </div>
+            <div data-key="85" class="key">
+                <kbd>U</kbd>
+                <span class="sound">HIHAT-2</span>
+            </div>
+            <div data-key="73" class="key">
+                <kbd>I</kbd>
+                <span class="sound">HIHAT-3</span>
+            </div>
+            <div data-key="79" class="key">
+                <kbd>O</kbd>
+                <span class="sound">HIHAT-4</span>
+            </div>
+            <div data-key="80" class="key">
+                <kbd>P</kbd>
+                <span class="sound">HIHAT-5</span>
+            </div>
+        </div>
+
+        <div class="second-row">
+            <div data-key="65" class="key">
+                <kbd>A</kbd>
+                <span class="sound">808-3</span>
+            </div>
+            <div data-key="83" class="key">
+                <kbd>S</kbd>
+                <span class="sound">808-4</span>
+            </div>
+            <div data-key="68" class="key">
+                <kbd>D</kbd>
+                <span class="sound">KICK-4</span>
+            </div>
+            <div data-key="70" class="key">
+                <kbd>F</kbd>
+                <span class="sound">KICK-5</span>
+            </div>
+            <div data-key="71" class="key">
+                <kbd>G</kbd>
+                <span class="sound">KICK-6</span>
+            </div>
+            <div data-key="72" class="key">
+                <kbd>H</kbd>
+                <span class="sound">CLAP-1</span>
+            </div>
+            <div data-key="74" class="key">
+                <kbd>J</kbd>
+                <span class="sound">CLAP-2</span>
+            </div>
+            <div data-key="75" class="key">
+                <kbd>K</kbd>
+                <span class="sound">RIDE-1</span>
+            </div>
+            <div data-key="76" class="key">
+                <kbd>L</kbd>
+                <span class="sound">RIDE-2</span>
+            </div>
+
+        <div class="third-row">
+            <div data-key="90" class="key">
+                <kbd>Z</kbd>
+                <span class="sound">FX-1</span>
+            </div>
+            <div data-key="88" class="key">
+                <kbd>X</kbd>
+                <span class="sound">FX-2</span>
+            </div>
+            <div data-key="67" class="key">
+                <kbd>C</kbd>
+                <span class="sound">FX-3</span>
+            </div>
+            <div data-key="86" class="key">
+                <kbd>V</kbd>
+                <span class="sound">SNARE-1</span>
+            </div>
+            <div data-key="66" class="key">
+                <kbd>B</kbd>
+                <span class="sound">SNARE-2</span>
+            </div>
+            <div data-key="78" class="key">
+                <kbd>N</kbd>
+                <span class="sound">SNARE-3</span>
+            </div>
+            <div data-key="77" class="key">
+                <kbd>M</kbd>
+                <span class="sound">SNARE-4</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- First Row -->
+    <audio data-key="81" src="sounds/808/808-1.wav"></audio>
+    <audio data-key="87" src="sounds/808/808-2.wav"></audio>
+    <audio data-key="69" src="sounds/kicks/kick-1.wav"></audio>
+    <audio data-key="82" src="sounds/kicks/kick-2.wav"></audio>
+    <audio data-key="84" src="sounds/kicks/kick-3.wav"></audio>
+    <audio data-key="89" src="sounds/hihats/hihat-1.wav"></audio>
+    <audio data-key="85" src="sounds/hihats/hihat-2.wav"></audio>
+    <audio data-key="73" src="sounds/hihats/hihat-3.wav"></audio>
+    <audio data-key="79" src="sounds/hihats/hihat-4.wav"></audio>
+    <audio data-key="80" src="sounds/hihats/hihat-5.wav"></audio>
+    <!-- Second Row -->
+    <audio data-key="65" src="sounds/808/808-3.wav"></audio>
+    <audio data-key="83" src="sounds/808/808-4.wav"></audio>
+    <audio data-key="68" src="sounds/kicks/kick-4.wav"></audio>
+    <audio data-key="70" src="sounds/kicks/kick-5.wav"></audio>
+    <audio data-key="71" src="sounds/kicks/kick-6.wav"></audio>
+    <audio data-key="72" src="sounds/claps/clap-1.wav"></audio>
+    <audio data-key="74" src="sounds/claps/clap-2.wav"></audio>
+    <audio data-key="75" src="sounds/rides/ride-1.wav"></audio>
+    <audio data-key="76" src="sounds/rides/ride-2.wav"></audio>
+    <!-- Third Row -->
+    <audio data-key="90" src="sounds/fx/FX-1.wav"></audio>
+    <audio data-key="88" src="sounds/fx/FX-2.wav"></audio>
+    <audio data-key="67" src="sounds/fx/FX-3.wav"></audio>
+    <audio data-key="86" src="sounds/snares/snare-1.wav"></audio>
+    <audio data-key="66" src="sounds/snares/snare-2.wav"></audio>
+    <audio data-key="78" src="sounds/snares/snare-3.wav"></audio>
+    <audio data-key="77" src="sounds/snares/snare-4.wav"></audio>
+</body>
+</html>
